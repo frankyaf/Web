@@ -3,4 +3,32 @@
     align-items: center;
     color: #fff;
     font-size: .8rem;
+    justify-content: space-between;
+}
+
+.tw-card-header{
+    display: flex;
+    align-items: center;
+}
+
+.tw-card-image {
+    max-width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.tw-card-info {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.tw-card-button{
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 0;
+    font-weight: bold;
 }
